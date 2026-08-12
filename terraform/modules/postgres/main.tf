@@ -13,7 +13,7 @@ resource "random_password" "admin" {
 
 # ----- The server -----
 resource "azurerm_postgresql_flexible_server" "this" {
-  name                = "psql-${var.name_prefix}"
+  name                = "psql-${var.name_prefix}-2026"
   resource_group_name = var.resource_group_name
   location            = var.location
   version             = var.postgres_version
