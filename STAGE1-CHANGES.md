@@ -319,7 +319,7 @@ kubectl create configmap db-schema `
   --namespace credpay `
   --from-file=schema.sql=schema.sql
 kubectl apply -f k8s/postgres/schema-init-job.yaml
-kubectl wait --for=condition=complete job/db-schema-init -n credpay --timeout=300s
+kubectl wait --for=condition=complete job/db-schema-init -n credpay --timeout=120s
 
 # 5. Backends
 kubectl apply -f k8s/user-service/
