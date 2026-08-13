@@ -224,13 +224,13 @@ stages:
           $(tag)
           latest
 
-=========================================================
-STAGE 3 - DEPLOY TO AKS
-Reads secrets from Key Vault, recreates the K8s Secret, deploys the
-schema Job, then user-service and payment-service (rolling update),
-then the frontend (blue/green), runs a smoke test, and only then
-switches live traffic to the new frontend color.
-=========================================================
+# =========================================================
+# STAGE 3 - DEPLOY TO AKS
+# Reads secrets from Key Vault, recreates the K8s Secret, deploys the
+# schema Job, then user-service and payment-service (rolling update),
+# then the frontend (blue/green), runs a smoke test, and only then
+# switches live traffic to the new frontend color.
+# =========================================================
 
 - stage: DeployToAKS
   displayName: Deploy to AKS
