@@ -24,7 +24,7 @@ pool:
 variables:
 
   # Azure service connections
-  acrServiceConnection: 'credpay-acr-sc'
+  acrServiceConnection: 'credpay-sc'
   azureServiceConnection: 'hdfc-manual'
 
   # ACR resource name (not the service connection name above) - needed for
