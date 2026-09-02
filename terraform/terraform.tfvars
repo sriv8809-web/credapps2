@@ -23,7 +23,7 @@ postgres_subnet_prefix = "10.0.16.0/24"
 node_count     = 2
 node_min_count = 2
 node_max_count = 2
-vm_size        = "standard_b2s_v2"
+vm_size        = "Standard_D2als_v6 (change)"
 
 # ----- PostgreSQL -----
 postgres_version        = "16"
