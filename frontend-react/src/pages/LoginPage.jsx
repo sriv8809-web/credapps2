@@ -51,7 +51,7 @@ export default function LoginPage() {
   return (
     <Box sx={{ minHeight: '100vh', display: 'flex' }}>
       <AuthBranding
-        heading="Get 10% off on HDFC creditcards"
+        heading="Get 10% off on all leading creditcards"
         subheading="Manage premium cards and pay bills with a seamless, secure experience."
       />
 
